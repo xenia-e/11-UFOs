@@ -18,9 +18,9 @@ Using JavaScript,  **D3.js JavaScript library** and HTML, we modified the code i
 
 # Results
 
-We created dynamic filtering of provided data using JavaScript. In addition to data filter we added filters for the city, state, country, and shape.
+We created dynamic filtering of provided data using JavaScript. In addition to date filter we added filters for the city, state, country, and shape.
 
-To use this filter you simply type in filtering criteria in the corresponding field (e.g. city 'el Cajon) and get you table filtered without reloading the page by clicking "enter" on your keyboard or switching to another filter input field (you can use tab key for that)
+To use this filter you simply type in filtering criteria in the corresponding field (e.g. city 'el Cajon') and get you table filtered without reloading the page by clicking "enter" on your keyboard or switching to another filter input field (you can use tab key for that)
 
 ![user guid image 1](https://github.com/xenia-e/11-UFOs/blob/main/static/images/user_guide_1.png)
 
@@ -47,6 +47,7 @@ First of all the filtering criteria are not very clear and user-friendly. Typing
 - add a "Clear All Filters" button whitch will allow us to clear all filters at once.
 - use auto-completion tips 
 - add the ability to filter not only by data but by period. 
+- make filters case-insensitive. 
 
 Besides this good filtering mechanisms should also give instant feedback about the impact of our filters. This can be a simple indicator that the filters are being applied or notification if no results meet the criteria. 
 
